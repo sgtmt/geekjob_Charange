@@ -1,0 +1,12 @@
+<?php
+// Your code here!
+$data = 1000;
+while($data>100){
+    $data = $data /2 ;
+    echo $data;
+    if($data<100){
+        break;
+    }
+}
+echo "test";
+?>
