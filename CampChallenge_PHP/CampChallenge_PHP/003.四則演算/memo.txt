@@ -1,0 +1,12 @@
+<?php
+  const Atai = 10;
+  $data = 20;
+  $data = $data + Atai;
+  echo $data."</br>";
+  $data = $data - Atai;
+  echo $data."</br>";
+  $data = $data * Atai;
+  echo $data."</br>";
+  $data = $data /Atai;
+  echo $data."</br>";
+ ?>
