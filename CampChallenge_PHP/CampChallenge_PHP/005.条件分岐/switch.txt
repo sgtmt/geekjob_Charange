@@ -1,0 +1,20 @@
+<?php
+$atai = 1;
+switch ($atai) {
+  case 1:
+  echo "one";
+  break;
+
+  case 2:
+    # co0de...
+    echo "two";
+    break;
+    # code..
+
+  default:
+    # code...
+    echo "想定外";
+    break;
+}
+
+ ?>
