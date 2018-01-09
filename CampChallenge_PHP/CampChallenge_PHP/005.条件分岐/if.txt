@@ -1,0 +1,13 @@
+<?php
+  $testData = 1;
+  if ($testData == 1) {
+    echo "1です！";
+    # code...
+  }elseif ($testData == 2) {
+    echo "プログラミングキャンプ";
+    # code...
+  }else {
+    echo "その他です！";
+  }
+
+ ?>
