@@ -1,0 +1,5 @@
+<?php
+    $hairetsu = array("10","100","soeda","hayashi","-20","118","End");
+    $hairetsu[2]= 33;
+    print_r($hairetsu);
+?>
