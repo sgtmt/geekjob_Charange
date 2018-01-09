@@ -1,0 +1,6 @@
+<?php
+  $gr = 'groove';
+  $gr2 = '-';
+  $gr3 = 'gear';
+  echo $gr.$gr2.$gr3;
+ ?>
