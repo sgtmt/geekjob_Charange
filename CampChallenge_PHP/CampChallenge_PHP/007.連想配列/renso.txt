@@ -1,0 +1,5 @@
+<?php
+$renso = array("1"=>"AA","hello"=>"world","soeba"=>"33",
+"20"=>"20");
+print_r($renso);
+ ?>
