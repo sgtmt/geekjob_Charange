@@ -1,0 +1,10 @@
+<?php
+// Your code here!
+const mojiA = "A";
+$data= "";
+for ($i = 0; $i < 30; $i++) {
+     $data = $data.mojiA;
+     echo $data."/br>";
+}
+echo substr_count($data,"A");
+?>
