@@ -1,0 +1,8 @@
+<?php
+// Your code here!
+$atai = 0;
+for ($i = 0; $i <= 100; $i++) {
+     $atai = $atai + $i;
+}
+echo $atai
+?>
