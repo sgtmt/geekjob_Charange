@@ -1,0 +1,4 @@
+<?php
+$name = "長沢　遼です。";
+echo $name; 
+ ?>
