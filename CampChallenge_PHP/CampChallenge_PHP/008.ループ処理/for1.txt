@@ -1,0 +1,10 @@
+<?php
+// Your code here!
+    $data = 8;
+    for ($i = 1; $i <=20; $i++) {
+     // code...
+     $data = $data * 8;
+
+}
+  echo $data;
+?>
