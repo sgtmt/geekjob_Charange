@@ -1,0 +1,18 @@
+<?php
+$atai = "A";
+switch ($atai) {
+  case "A":
+  echo "英語";
+  break;
+
+  case "あ":
+    # co0de...
+    echo "日本語";
+    break;
+    # code..
+
+  default:
+    # code...
+    break;
+}
+ ?>
