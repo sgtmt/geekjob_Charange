@@ -1,0 +1,11 @@
+<?php
+function keisan($atai1=7,$atai2=5 ,$atai3= false){
+  $data = $atai1*$atai2;
+  if($atai3 == true){
+    echo pow($data,2);
+  }else{
+    echo $data;
+  }
+}
+keisan(2,5,true);
+ ?>
