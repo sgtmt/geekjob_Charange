@@ -1,0 +1,17 @@
+<?php
+// Your code here!
+$fruits=array(1,2,3,4,5,6,7,8,9);
+
+foreach($fruits as $value){
+     if ($value == 5) {
+        continue;
+    }
+    if($value > 7){
+     break;
+   }
+    foreach($fruits as $values){
+echo $value*$values."
+";
+}
+}
+?>
