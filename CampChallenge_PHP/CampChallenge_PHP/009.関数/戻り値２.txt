@@ -1,0 +1,32 @@
+<?php
+ function profile()
+{
+  $info = array();
+  $info['id']='01';
+  $info['name']="nagasawa\n";
+  $info['birth']= '1994-04-24'."\n";
+  $info['where']='tokyo'."\n";
+  return $info;
+  // echo "長沢遼と申します\n";
+  // echo "1994-04-24年生まれです。\n";
+  // echo "よろしくお願いします。\n";
+//   if($pr_flg == 0 or $pr_flg == false){
+//     echo "この処理は正しく実行されませんでした。";
+//   }else{
+//     echo "この処理は正しく実行されました";
+//   }
+//   ;
+// }
+}
+   // profile(true);
+   $infos= profile();
+   echo $infos['name'];
+    echo $infos['birth'];
+     echo $infos['where'];
+// for ($i = 0; $i < 10; $i++) {
+//      // code...
+//      echo $i;
+//
+// }
+
+?>
