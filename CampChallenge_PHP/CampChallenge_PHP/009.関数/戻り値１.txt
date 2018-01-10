@@ -1,0 +1,22 @@
+<?php
+ function profile($pr_flg =0)
+{
+
+  // echo "長沢遼と申します\n";
+  // echo "1994-04-24年生まれです。\n";
+  // echo "よろしくお願いします。\n";
+  if($pr_flg == 0 or $pr_flg == false){
+    echo "この処理は正しく実行されませんでした。";
+  }else{
+    echo "この処理は正しく実行されました";
+  }
+  ;
+}
+   profile(true);
+// for ($i = 0; $i < 10; $i++) {
+//      // code...
+//      echo $i;
+//
+// }
+
+?>
