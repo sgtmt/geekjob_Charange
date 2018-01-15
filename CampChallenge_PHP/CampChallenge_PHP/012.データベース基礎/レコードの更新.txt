@@ -1,0 +1,1 @@
+UPDATE `profiles` SET name = '‹g“c –Î' where profilesID = 2

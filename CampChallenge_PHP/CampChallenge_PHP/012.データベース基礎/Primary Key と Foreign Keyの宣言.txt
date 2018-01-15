@@ -1,0 +1,6 @@
+create table user(userID int, name varchar(255),tell varchar(255), age int ,birthday date,departmentID int ,stationID int);
+create table department(departmentID int, departmentname varchar(255));
+INSERT INTO department VALUES(1,'ŠJ”­•”'),(2,'‰c‹Æ•”'),(3,'‘–±•”');
+create table station(stationID int, stationname varchar(255));
+INSERT INTO station VALUES(1,'‹ã’i‰º'),(2,'‰i“c’¬'),(3,'a’J'),(4,'_•Û’¬'),(5,'ãˆä‘');
+
